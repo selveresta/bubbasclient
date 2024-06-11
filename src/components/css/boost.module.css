@@ -1,0 +1,22 @@
+.boost {
+	border: 1px solid #ddd;
+	min-width: 300px;
+	border-radius: 4px;
+	background-color: purple;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.boost.active {
+	background-color: #e0ffe0;
+}
+
+button {
+	height: 30px;
+	background-color: indianred;
+	font-size: 18px;
+	border: 0px solid;
+}

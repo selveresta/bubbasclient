@@ -1,0 +1,72 @@
+.miningGame {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+}
+
+.gameContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 150px;
+}
+
+.mainBlock {
+	background-color: #4b6cb7;
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.photoBlock {
+	width: 90vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.mineImage {
+	width: 50px;
+	height: 50px;
+	margin-right: 25px;
+}
+
+.mineButton {
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	max-width: 50%;
+	background-color: #6840fa;
+	color: white;
+	border: 0px solid;
+	border-radius: 50px;
+	width: 100vw;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.miningText {
+	display: block;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	max-width: 50%;
+	background-color: #6840fa;
+	color: white;
+	border: 0px solid;
+	border-radius: 50px;
+	width: 100vw;
+}
+
+.mineCount {
+	display: inline;
+	font-size: 40px;
+}

@@ -1,0 +1,43 @@
+.layout {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, rgba(0, 39, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+main {
+	/* background-color: white; */
+}
+
+.myHeader {
+	width: 100%;
+	display: inline-block;
+}
+
+.customLink {
+	padding: 15px;
+
+	background: #6e32cf;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	color: white;
+	padding: 1rem;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.nav {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	flex: 1;
+	padding: 1rem;
+}

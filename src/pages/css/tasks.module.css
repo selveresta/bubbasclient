@@ -1,0 +1,18 @@
+.tasksPage {
+	/* padding: 20px; */
+}
+
+.tasksPage h1 {
+	margin-bottom: 20px;
+	color: white;
+}
+
+.tasks {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 75vh;
+	overflow-x: scroll;
+	width: auto;
+	margin-top: 10px;
+}
